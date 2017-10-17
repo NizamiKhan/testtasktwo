@@ -15,7 +15,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/', 'NewsController@show');
 });
 
-Route::get('/', function () {
+//Route::get('/', function () {
 
 ////    $cat = \App\Category::find(1);
 ////    dump($cat);
@@ -26,4 +26,4 @@ Route::get('/', function () {
 //    }
 //    return 'ads';
 ////    return view('welcome');
-});
+//});
